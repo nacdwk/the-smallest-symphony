@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+shots/
+backup/
+dist/bundle.js
+dist/page.html
