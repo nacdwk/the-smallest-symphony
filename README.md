@@ -2,7 +2,7 @@
 
 A playable journey through string theory in six movements, built with three.js and the Web Audio API.
 
-**Play it: <https://nacdwk.github.io/the-smallest-symphony/>** (best on a laptop or desktop, with sound on)
+**Play it: <https://smallestsymphony.com>** (best on a laptop or desktop, with sound on)
 
 You start with a grain of salt and dive down to 10⁻³⁵ m, where string theory proposes that every particle is a tiny vibrating string. Then you play that string yourself. Every movement is interactive, and every interaction makes sound. All of it is in one key (D minor pentatonic), so the whole piece plays as a single composition.
 
@@ -54,7 +54,7 @@ This bundles `src/` with esbuild (fetched through `npx`) into one inline module 
 - `dist/index.html`: the standalone page, committed so the piece works straight from the repo.
 - `dist/page.html`: the body-only version used to publish it as a Claude artifact. It is gitignored.
 
-Set `SITE_URL` to add an absolute social-preview image to the standalone page, for example `SITE_URL=https://nacdwk.github.io/the-smallest-symphony/ tools/build.sh`.
+Set `SITE_URL` to add an absolute social-preview image to the standalone page, for example `SITE_URL=https://smallestsymphony.com/ tools/build.sh`.
 
 ## Deploy
 
